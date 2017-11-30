@@ -1,0 +1,9 @@
+<h1>
+  {{ title }} 
+</h1>
+
+<ul *ngIf="listItems">
+  <li *ngFor="let item of listItems" appBold>
+   {{ item }}
+  </li>
+</ul>
